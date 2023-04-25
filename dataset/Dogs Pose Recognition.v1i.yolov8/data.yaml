@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['laying down', 'sitting', 'squatting']
+
+roboflow:
+  workspace: project
+  project: dogs-pose-recognition
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/dogs-pose-recognition/dataset/1
